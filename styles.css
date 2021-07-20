@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:10px;
+}
+#totalstock{
+    color:red;
+}
+
+#totaleopbrengst{
+    color:lightblue;
+}
+
+#totalhuidigeopbrengst{
+    color:green;
+}
+
+.tv{
+    background-color: lightblue;
+    padding:10px;
+}

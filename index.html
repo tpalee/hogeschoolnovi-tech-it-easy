@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-
+<h2>De totale voorraad is: <span id="totalstock"></span></h2>
+<h2>De totale opbrengst als alle tv's verkocht zijn is: <span id="totaleopbrengst"></span></h2>
+<h2>De huidige totale verkochte opbrengst is: <span id="totalhuidigeopbrengst"></span></h2>
+<h2>De naam van tv1 is: <span id="tv1"></span></h2>
+<h2>De naam van tv2 is: <span id="tv2"></span></h2>
+<div id="tvgegevens">
+    <p id="naam"></p>
+    <p id="prijs"></p>
+    <p id="schermgroottes"></p>
+    <div id="container"></div>
+    <div id="buttons">
+        <button id="prijsbutton" class="tvbutton">Sorteer op prijs</button>
+        <button id="ambilightbutton" class="tvbutton">Ambilight TV's</button>
+        <button id="uitverkochtbutton" class="tvbutton">Uitverkochte exemplaren</button>
+    </div>
+</div>
+<script src="./main.js"></script>
+<script src="./controller.js"></script>
 </body>
 </html>
